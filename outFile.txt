@@ -2,6 +2,6 @@
  -------------------------------                                                 
          1 ILLEGAL INPUT                                                         
          3 IS A PRIME                                                            
-      8677 IS A PRIME                                                            
         33 IS NOT A PRIME                                                        
-         5 IS A PRIME                                                            
+         2 IS A PRIME                                                            
+         4 IS NOT A PRIME                                                        

@@ -43,6 +43,7 @@ PROCEDURE DIVISION.
     READ INPUT-FILE INTO IN-CARD AT END GO TO FINISH.
     MOVE IN-N TO N.
     display N.
+    display "--------------------------------".
     IF N IS GREATER THAN 1 GO TO B1.
     MOVE IN-N TO OUT-N.
     WRITE OUT-LINE FROM ERROR-MESS AFTER ADVANCING 1 LINE.
@@ -53,7 +54,9 @@ B1.
 2.
     DIVIDE R INTO N GIVING I.
     MULTIPLY R BY I.
+    display I.
     IF I IS NOT EQUAL TO N GO TO B2.
+    display "notEqal".
     MOVE IN-N TO OUT-N-2.
     WRITE OUT-LINE FROM NOT-A-PRIME-LINE AFTER ADVANCING 1 LINE.
     GO TO 1.
